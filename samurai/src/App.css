@@ -16,22 +16,3 @@
 }
 
 
-
-.header {
-  grid-area: h;
-  background-color: rgba(141, 66, 68, 0.55);
-}
-
-.footer {
-  grid-area: f;
-  background-color: rgba(44, 141, 77, 0.55);
-}
-
-.sidenav {
-  grid-area: sn;
-}
-
-.profile {
-  grid-area: p;
-  background-color: rgba(60, 62, 141, 0.55);
-}

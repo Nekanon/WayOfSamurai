@@ -1,13 +1,17 @@
 import React from 'react'
-import './Sidenav.css';
+import styles from './Sidenav.module.css';
 
 const Sidenav = () => {
-    return <div className="Sidenav">
-        <ul>
-            <li>Profile</li>
-            <li>Messages</li>
-            <li>News</li>
-        </ul>
+    return <div className={styles.sidenav}>
+            <div>
+                Profile
+            </div>
+            <div>
+                Message
+            </div>
+            <div>
+                News
+            </div>
     </div>
 };
 
